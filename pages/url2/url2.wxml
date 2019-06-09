@@ -1,0 +1,15 @@
+<view class='container'>
+
+<!-- <text wx:if="{{mingyan.result[0].famous_saying}}">1.{{mingyan.result[0].famous_saying}}</text>
+<text wx:if="{{mingyan.result[1].famous_saying}}">2.{{mingyan.result[1].famous_saying}}</text>
+<text wx:if="{{mingyan.result[2].famous_saying}}">3.{{mingyan.result[2].famous_saying}}</text>
+<text wx:if="{{mingyan.result[3].famous_saying}}">4.{{mingyan.result[3].famous_saying}}</text>
+<text wx:if="{{mingyan.result[4].famous_saying}}">5.{{mingyan.result[4].famous_saying}}</text> -->
+
+  <view wx:for="{{mingyan.result}}">
+      
+        <text wx:if="{{item.famous_saying}}">{{item.famous_saying}}</text>
+      
+     </view>
+
+</view>

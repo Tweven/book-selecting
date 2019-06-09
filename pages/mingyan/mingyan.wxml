@@ -1,0 +1,64 @@
+<view class="page">
+    <view class="renwu">
+      <text>人物</text>
+    </view>
+    <view class="people">
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[0].name}}" size="mini">毛泽东</button>
+             <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[1].name}}" size='mini'>鲁迅</button>
+            <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[2].name}}" size="mini">周恩来</button>
+            <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[3].name}}" size="mini">史铁生</button>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[4].name}}" size="mini">张爱玲</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[5].name}}" size="mini">郭敬明</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[6].name}}" size="mini">郭沫若</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[7].name}}" size="mini">奥巴马</button>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[8].name}}" size="mini">周星驰</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[9].name}}" size="mini">孔子</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[10].name}}" size="mini">朱熹</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[11].name}}" size="mini">金庸</button>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[12].name}}" size="mini">培根</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[13].name}}" size="mini">三毛</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[14].name}}" size="mini">金星</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[15].name}}" size="mini">莎士比亚</button>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[16].name}}" size="mini">雨果</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[17].name}}" size="mini">列宁</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[18].name}}" size="mini">邓小平</button>
+          <text>\t</text>
+          <button class='container movie-card' bindtap='f1'  data-name="{{p[19].name}}" size="mini">爱因斯坦</button>
+        </view>
+    <view class="fenlei">
+      <text>分类</text>
+    </view>
+    <view class="sort">
+        <button class='container movie-card' bindtap='f1'  data-name="{{p[20].name}}" size="mini">爱国主义</button>
+        <text>\t</text>
+        <button class='container movie-card' bindtap='f1'  data-name="{{p[21].name}}" size="mini">集体</button>
+        <text>\t</text>
+        <button class='container movie-card' bindtap='f1'  data-name="{{p[22].name}}" size="mini">人生</button>
+        <text>\t</text>
+        <button class='container movie-card' bindtap='f1'  data-name="{{p[23].name}}" size="mini">情感</button>
+        <button class='container movie-card' bindtap='f1'  data-name="{{p[24].name}}" size="mini">勤俭</button>
+        <text>\t</text>
+        <button class='container movie-card' bindtap='f1'  data-name="{{p[25].name}}" size="mini">诚信</button>
+        <text>\t</text>
+        <button class='container movie-card' bindtap='f1'  data-name="{{p[26].name}}" size="mini">谦虚</button>
+        <text>\t</text>
+       <button class='container movie-card' bindtap='f1'  data-name="{{p[27].name}}" size="mini">立志</button>
+      </view>
+  <view class="foot">
+    <text>对酒当歌，人生几何</text>
+  </view>
+</view>

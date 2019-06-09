@@ -1,0 +1,45 @@
+<view class="page">
+<view>
+    <swiper indicator-dots="ture" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="pic"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="help-text">
+    <text>请选择学校</text>
+  </view>
+  <view class="input-cell">
+    <view class="input-cell-hd">
+      <text>省份</text>
+    </view>
+    <view class="input-cell-bd">
+      <picker bindchange="bindProvinceChange" class="input-box" value="{{province_index}}" range="{{provinces}}">
+        <view class="picker">
+          {{provinces[province_index]}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="spacing"></view>
+  <view class="input-cell">
+    <view class="input-cell-hd">
+      <text>学校</text>
+    </view>
+    <view class="input-cell-bd">
+      <picker bindchange="bindSchoolChange" class="input-box" value="{{school_index}}" range="{{schools}}">
+        <view class="picker">
+          {{schools[school_index]}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="spacing"></view>
+</view>
+<view class="btn">
+  <button bindtap="click" >确定</button>
+</view>
+<view class="foot">书山有路勤为径，学海无涯苦作舟
+</view>

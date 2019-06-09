@@ -1,0 +1,184 @@
+.search-btn {
+  margin: 16rpx 2rpx;
+  color: white;
+  background-color: #04be02;
+  border: none;
+  font-size: 32rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+}
+.page
+{
+margin:0rpx,10rpx,0rpx,10rpx;
+}
+.choose_school_box {
+  transition: all 2s linear;
+}
+
+.search-btn-view {
+  width: 98%;
+}
+
+.help-text {
+  margin: 30rpx 15rpx 15rpx 15rpx;
+  color: rgb(0, 1, 7);
+  font-size: 45rpx;
+  text-align: left;
+  width: 96%;
+}
+
+.right {
+  float: right;
+  padding-left: 20rpx;
+}
+
+.green_link {
+  color: #55a6e1;
+  font-weight: bold;
+}
+
+.input-cell {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(219, 212, 212);
+  width: 100%;
+  padding: 10rpx 0;
+}
+
+.input-cell-hd {
+  padding-left: 20rpx;
+  width: 120rpx;
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.input-cell-bd {
+  width: 100%;
+}
+
+.input-box {
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  background-color: transparent;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  width: 100%;
+  color: #555;
+}
+
+.search-result {
+  width: 100%;
+}
+
+.book-links {
+  background-color: #fff;
+  line-height: 1.41176471;
+  font-size: 28rpx;
+  overflow: hidden;
+  position: relative;
+  border-top: 1px solid #d9d9d9;
+}
+
+.book-link {
+  padding: 0 15px;
+  padding-left: 0px;
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.book-navigator {
+  padding: 10px 0;
+  width: 99%;
+}
+
+.book_description{
+  padding-left: 3rpx;
+  padding-top: 3rpx;
+}
+
+
+.book_description_press {
+  font-style: italic;
+  font-size: 22rpx;
+  color: #b2b2b2;
+  padding-left: 10rpx;
+}
+
+.book_description_author {
+  font-style: italic;
+  font-size: 22rpx;
+  color: #b2b2b2;
+}
+
+.link-icon {
+  content: " ";
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  height: 6px;
+  width: 6px;
+  border-width: 2px 2px 0 0;
+  border-color: #c8c8cd;
+  border-style: solid;
+  position: relative;
+  top: -2px;
+  top: -1px;
+  margin-left: 0.3em;
+  text-align: right;
+  color: #888;
+}
+
+.error {
+  text-align: center;
+  width: 100%;
+  padding-top: 200rpx;
+}
+
+.error icon {
+  width: 100%;
+  padding-bottom: 30rpx;
+}
+
+.error text {
+  font-size: 30rpx;
+  color: rgb(85, 85, 85);
+}
+.pic
+{
+  width:100%;
+}
+.btn
+{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 20rpx;
+  color: #afacac;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.foot
+{
+  background-color:lightgrey;
+  position: fixed;
+  text-align: center;
+  bottom: 30rpx;
+  left: 0;
+  right: 0;
+}
+
+page{
+  background-color:white;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560099994336&di=19bf5e172b5edbfa3169432e36643898&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F11%2F13%2F23%2F38j58PICJBX.jpg);
+  background-size: cover;
+  
+}

@@ -1,0 +1,12 @@
+.container {
+  background-color: #eee;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560105459176&di=94ce3e854d7014e3f5398b9058c46e0b&imgtype=0&src=http%3A%2F%2Fs9.sinaimg.cn%2Fmiddle%2F7a9e631cha3efc4317fe8%26690);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height:120vh;
+  font-size: 40;
+  margin: 10 10 10 10;
+}
