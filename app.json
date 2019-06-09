@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/search/search",
+    "pages/fav/fav",
+    "pages/found/found",
+    "pages/mingyan/mingyan",
+    "pages/url2/url2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#49addb",
+    "navigationBarTextStyle": "black"
+  },
+ "tabBar": {
+  "list": [
+    {
+      "iconPath": "src/img/search-1.png",
+      "selectedIconPath": "src/img/search.png",
+      "pagePath": "pages/search/search",
+      "text": "登入"
+    },
+    {
+      "iconPath": "src/img/tj-1.png",
+      "selectedIconPath": "src/img/tj.png",
+      "pagePath": "pages/found/found",
+      "text": "发现"
+    },
+    {
+      "iconPath": "src/img/2.png",
+      "selectedIconPath": "src/img/dy.png",
+      "pagePath": "pages/mingyan/mingyan",
+      "text": "名言"
+    }
+  ]
+}
+  
+
+}
